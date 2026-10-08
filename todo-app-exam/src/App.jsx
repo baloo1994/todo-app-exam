@@ -2,11 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [todos, setTodos] = useState([
-    { id: 1, text: "temp 1" },
-    { id: 2, text: "temp 2" },
-    { id: 3, text: "temp 3" },
-  ]);
+  const [todos, setTodos] = useState([]);
 
   const [draft, setDraft] = useState("");
 
@@ -48,6 +44,7 @@ function handleRemove(idToRemove) {
 <button type="button" onClick={handleAdd}>
   Lägg till
 </button>
+{todos.length === 0 && <p>Inga uppgifter än. Lägg till en!</p>}
       <ul>
         {todos.map(todo => (
           <li key={todo.id}>
