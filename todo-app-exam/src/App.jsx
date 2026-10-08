@@ -13,6 +13,10 @@ function App() {
   function handleChange(e) {
   setDraft(e.target.value);
 }
+
+function handleClear() {
+  setDraft("");
+}
   
   return (
     <main>
@@ -24,6 +28,9 @@ function App() {
   onChange={handleChange}
   placeholder="Skriv uppgift..."
 />
+<button type="button" onClick={handleClear}>
+  Rensa
+</button>
       <ul>
         {todos.map(todo => (
           <li key={todo.id}>{todo.text}</li>
