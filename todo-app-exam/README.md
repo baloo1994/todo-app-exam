@@ -1,3 +1,5 @@
+https://teams.microsoft.com/l/meetingrecap?driveId=b%21ybdJWXdFIkGDgCOz6xiA6ZEeIE85c_1ItQMzlQa2E---1yogw1xBQ417KUBuWXth&driveItemId=01437I32WN3ADU5AG25RBJLWHR7CLJH5Q2&sitePath=https%3A%2F%2Ffunet-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2F3ggyhmu26_frandi_folkuniversitetet_nu%2FIQDN2AdOgNrsQpXY8fiWk_YaAfiFDnHYbmQlRZj-8TzEINw&fileUrl=https%3A%2F%2Ffunet-my.sharepoint.com%2Fpersonal%2F3ggyhmu26_frandi_folkuniversitetet_nu%2FDocuments%2FInspelningar%2FM%C3%B6te+med+Dino+Franz%C3%A9n+MU26-20261009_164909-M%C3%B6tesinspelning.mp4%3Fweb%3D1&threadId=19%3Ameeting_NGZiNjBkNjgtMjBkOS00ZjBlLTkyMzItZjJiNjQzNWQxNWFi%40thread.v2&organizerId=2efa2a75-8789-4fc1-9867-d7705963d05c&tenantId=a4d3b9bf-2082-4eee-ab79-fd407faef1e5&callId=38ea434e-380d-4589-9e7d-4c43dbc2e122&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapCore&recapType=Recording
+
 1. Frågor om koden
 
 Fråga 1. State-hantering: Hur håller din app reda på vilka uppgifter som finns och om de är klara? Vad händer med gränssnittet när datan uppdateras?
