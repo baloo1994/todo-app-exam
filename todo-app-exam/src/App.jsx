@@ -38,7 +38,7 @@ function App() {
   return (
     <main className="app">
       <h1 className="app-title">Todo App</h1>
-      <p className="todo-count">Antal saker att göra: {todos.length}</p>
+      <p className="todo-count">Antal uppgifter: {todos.length}</p>
 
       <div className="todo-form">
         <input

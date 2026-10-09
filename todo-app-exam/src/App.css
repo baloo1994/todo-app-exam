@@ -1,11 +1,141 @@
-.todo-text.done {
-  text-decoration: line-through;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  background: #04132c;
+  color: #1f2430;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+
+.app {
+  max-width: 520px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border: 1px solid #04132c;
+  border-radius: 12px;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.todo-count {
+  margin: 0.25rem 0 1.5rem;
+  color: #5b6577;
+}
+
+.todo-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.todo-input {
+  flex: 1 1 200px;
+  padding: 0.6rem 0.8rem;
+  font: inherit;
+  border: 1px solid #04132c;
+  border-radius: 8px;
+}
+
+.todo-input:focus {
+  outline: 2px solid #2f54c9;
+  outline-offset: 1px;
+}
+
 .btn {
-  padding: 0.25rem 0.75rem;
+  padding: 0.6rem 1rem;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #04132c;
+  background: #eef1f6;
+  border: 1px solid #04132c;
+  border-radius: 8px;
   cursor: pointer;
 }
 
+.btn:hover {
+  background: #dfe5ee;
+}
+
+.btn-add {
+  color: #ffffff;
+  background: #04132c;
+}
+
+.btn-add:hover {
+  background: #1a2d4d;
+}
+
 .btn-remove:hover {
-  background: #fdd;
+  color: #ffffff;
+  background: #c93636;
+  border-color: #c93636;
+}
+
+.empty-message {
+  margin: 1.5rem 0 0;
+  text-align: center;
+  color: #5b6577;
+}
+
+.todo-list {
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  background: #f4f6fa;
+  border: 1px solid #04132c;
+  border-radius: 8px;
+}
+
+.todo-item .btn {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+}
+
+.todo-text {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+.todo-item.done {
+  background: #d3ecd9;
+  border-left: 6px solid #2e8b4a;
+}
+
+.todo-item.done .todo-text {
+  color: #4a5f50;
+  text-decoration: line-through;
+}
+
+.todo-item.done .todo-text::before {
+  content: "✓";
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #2e8b4a;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .app {
+    margin: 0.75rem;
+    padding: 1rem;
+  }
 }
